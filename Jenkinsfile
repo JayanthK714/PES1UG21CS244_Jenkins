@@ -22,6 +22,7 @@ pipeline {
                 echo "Deployment Success"
             }
         }
+    }
     post{
         failure{
             error 'Pipeline Failed'
